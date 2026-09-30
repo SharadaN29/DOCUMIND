@@ -1,0 +1,200 @@
+[
+  {
+    "id": "chat_1790746397373_2bfag",
+    "userId": "default",
+    "documentId": "doc_1790746388337_eg5oj",
+    "documentName": "Computer_Networks.pdf",
+    "title": "Discussion on Computer_Networks.pdf",
+    "createdAt": "2026-09-30T05:33:17.373Z",
+    "updatedAt": "2026-09-30T05:33:32.472Z",
+    "messages": [
+      {
+        "id": "msg_u_1790746412462",
+        "userId": "default",
+        "documentId": "doc_1790746388337_eg5oj",
+        "role": "user",
+        "content": "What is the function of the Transport Layer according to the document?",
+        "timestamp": "2026-09-30T05:33:32.462Z"
+      },
+      {
+        "id": "msg_a_1790746412472",
+        "userId": "default",
+        "documentId": "doc_1790746388337_eg5oj",
+        "role": "assistant",
+        "content": "According to the document (*Computer_Networks.pdf*, Page 1), the functions of the **Transport Layer** include:\n\n* **End-to-end data delivery**\n* **Flow control**\n* Implementing **TCP/UDP protocols**",
+        "timestamp": "2026-09-30T05:33:32.472Z",
+        "sources": [
+          {
+            "documentId": "doc_1790746388337_eg5oj",
+            "documentName": "Computer_Networks.pdf",
+            "pageNumber": 1,
+            "chunkIndex": 0,
+            "snippet": "Computer Networks and OSI Architecture Notes\nThe Open Systems Interconnection model defines seven logical layers:\n1. Physical Layer: Transmission of raw bitstreams over a physical medium.\n2. Data Link Layer: Node-to-node data transfer, framing, and error detection.\n3. Network Layer: Routing of packets across logical networks using IP addressing.\n4. Transport Layer: End-to-end data delivery, flow control, and TCP/UDP protocols.",
+            "score": 0.73
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chat_1790746311244_eojle",
+    "userId": "default",
+    "documentId": "sample_doc_dbms_01",
+    "documentName": "DBMS_Notes.pdf",
+    "title": "Discussion on DBMS_Notes.pdf",
+    "createdAt": "2026-09-30T05:31:51.244Z",
+    "updatedAt": "2026-09-30T05:32:25.017Z",
+    "messages": [
+      {
+        "id": "msg_u_1790746316852",
+        "userId": "default",
+        "documentId": "sample_doc_dbms_01",
+        "role": "user",
+        "content": "What is normalization?",
+        "timestamp": "2026-09-30T05:31:56.852Z"
+      },
+      {
+        "id": "msg_a_1790746316860",
+        "userId": "default",
+        "documentId": "sample_doc_dbms_01",
+        "role": "assistant",
+        "content": "Based on Chapter 2 of the document, **normalization** is the systematic approach of decomposing tables to eliminate data redundancy and avoid undesirable anomalies. \n\nKey details covered in the document include:\n\n### Anomalies Prevented by Normalization\n* **Insertion Anomaly:** The inability to record certain facts without adding unrelated attributes.\n* **Deletion Anomaly:** The unintended loss of unrelated data when deleting a record.\n* **Update Anomaly:** Inconsistent updates across duplicate occurrences of data in multiple records.\n\n### Advantages of Normalization\nAccording to Chapter 2.2, the primary benefits include:\n1. Minimizing duplicate data storage.\n2. Eliminating data anomalies during `INSERT`, `UPDATE`, and `DELETE` operations.\n3. Ensuring referential integrity and consistency across related tables.\n4. Simplifying database maintenance and schema evolution.\n\nNormalization is achieved through progressive stages known as **Normal Forms**, which include First Normal Form (1NF), Second Normal Form (2NF), Third Normal Form (3NF), and Boyce-Codd Normal Form (BCNF).",
+        "timestamp": "2026-09-30T05:31:56.860Z",
+        "sources": [
+          {
+            "documentId": "sample_doc_dbms_01",
+            "documentName": "DBMS_Notes.pdf",
+            "pageNumber": 2,
+            "chunkIndex": 3,
+            "snippet": "Chapter 2.2: Boyce-Codd Normal Form (BCNF) & Advantages of Normalization.\nBoyce-Codd Normal Form (BCNF) is a stricter version of 3NF. A relation is in BCNF if for every non-trivial functional dependency X -> Y, X must be a superkey.\nAdvantages of Normalization:\n1. Minimizes duplicate data storage.\n2. Eliminates data anomalies during INSERT, UPDATE, and DELETE operations.\n3. Ensures referential integrity and consistency across related tables.\n4. Simplifies database maintenance and schema evolution.",
+            "score": 0.67
+          },
+          {
+            "documentId": "sample_doc_dbms_01",
+            "documentName": "DBMS_Notes.pdf",
+            "pageNumber": 1,
+            "chunkIndex": 1,
+            "snippet": "Chapter 2: Normalization Concepts and Redundancy.\nNormalization is the systematic approach of decomposing tables to eliminate data redundancy and avoid undesirable anomalies such as Insertion Anomalies, Deletion Anomalies, and Update Anomalies.\n- Insertion Anomaly: Inability to record certain facts without adding unrelated attributes.\n- Deletion Anomaly: Unintended loss of unrelated data when deleting a record.\n- Update Anomaly: Inconsistent updates across duplicate occurrences of data in multiple records.",
+            "score": 0.66
+          },
+          {
+            "documentId": "sample_doc_dbms_01",
+            "documentName": "DBMS_Notes.pdf",
+            "pageNumber": 2,
+            "chunkIndex": 2,
+            "snippet": "Chapter 2.1: Normal Forms (1NF, 2NF, 3NF, BCNF).\nFirst Normal Form (1NF): A relation is in 1NF if and only if each attribute contains only atomic (indivisible) values, and there are no repeating groups or multivalued attributes.\nSecond Normal Form (2NF): A relation is in 2NF if it is in 1NF and every non-prime attribute is fully functionally dependent on the entire primary key (no partial dependencies on a subset of a composite key).\nThird Normal Form (3NF): A relation is in 3NF if it is in 2NF and no non-prime attribute is transitively dependent on the primary key (no X -> Y and Y -> Z where Z is non-prime).",
+            "score": 0.56
+          },
+          {
+            "documentId": "sample_doc_dbms_01",
+            "documentName": "DBMS_Notes.pdf",
+            "pageNumber": 1,
+            "chunkIndex": 0,
+            "snippet": "Chapter 1: Relational Database Model & Functional Dependencies.\nIn a Relational Database Management System (RDBMS), data is organized into two-dimensional tables called relations. A relation consists of rows (tuples) and columns (attributes). A candidate key is a minimal superkey that uniquely identifies each tuple. The primary key is chosen among candidate keys to serve as the principal identifier. Functional dependency X -> Y means that if two tuples agree on attribute X, they must also agree on attribute Y.",
+            "score": 0.51
+          }
+        ]
+      },
+      {
+        "id": "msg_u_1790746330163",
+        "userId": "default",
+        "documentId": "sample_doc_dbms_01",
+        "role": "user",
+        "content": "What are its advantages?",
+        "timestamp": "2026-09-30T05:32:10.163Z"
+      },
+      {
+        "id": "msg_a_1790746330173",
+        "userId": "default",
+        "documentId": "sample_doc_dbms_01",
+        "role": "assistant",
+        "content": "Based on Chapter 2.2 of the document (*\"Boyce-Codd Normal Form (BCNF) & Advantages of Normalization\"*), the advantages of **normalization** are:\n\n1. **Minimizes duplicate data storage:** Reduces redundant data across tables.\n2. **Eliminates data anomalies:** Prevents undesirable anomalies during `INSERT`, `UPDATE`, and `DELETE` operations.\n3. **Ensures referential integrity and consistency:** Maintains data consistency across related tables.\n4. **Simplifies maintenance:** Makes database maintenance and schema evolution easier.",
+        "timestamp": "2026-09-30T05:32:10.173Z",
+        "sources": [
+          {
+            "documentId": "sample_doc_dbms_01",
+            "documentName": "DBMS_Notes.pdf",
+            "pageNumber": 2,
+            "chunkIndex": 3,
+            "snippet": "Chapter 2.2: Boyce-Codd Normal Form (BCNF) & Advantages of Normalization.\nBoyce-Codd Normal Form (BCNF) is a stricter version of 3NF. A relation is in BCNF if for every non-trivial functional dependency X -> Y, X must be a superkey.\nAdvantages of Normalization:\n1. Minimizes duplicate data storage.\n2. Eliminates data anomalies during INSERT, UPDATE, and DELETE operations.\n3. Ensures referential integrity and consistency across related tables.\n4. Simplifies database maintenance and schema evolution.",
+            "score": 0.59
+          },
+          {
+            "documentId": "sample_doc_dbms_01",
+            "documentName": "DBMS_Notes.pdf",
+            "pageNumber": 3,
+            "chunkIndex": 5,
+            "snippet": "Chapter 3.1: Isolation and Durability.\n- Isolation: The execution of concurrent transactions must result in a state equivalent to serial execution. Intermediate modifications of one transaction are not visible to other transactions until commit (using isolation levels like Read Committed, Repeatable Read, Serializable).\n- Durability: Once a transaction has committed, its updates persist permanently in non-volatile storage, surviving subsequent power outages or system crashes through write-ahead logging (WAL).",
+            "score": 0.55
+          },
+          {
+            "documentId": "sample_doc_dbms_01",
+            "documentName": "DBMS_Notes.pdf",
+            "pageNumber": 4,
+            "chunkIndex": 7,
+            "snippet": "Chapter 4.1: B+ Tree Index Architecture.\nA B+ tree is a self-balancing search tree data structure. All actual record pointers or values reside in leaf nodes, which are linked together in a doubly-linked sequential chain. Internal nodes store only search keys and routing pointers. This enables both logarithmic search time O(log N) for point queries and high-efficiency sequential range scanning across contiguous leaf blocks.",
+            "score": 0.51
+          },
+          {
+            "documentId": "sample_doc_dbms_01",
+            "documentName": "DBMS_Notes.pdf",
+            "pageNumber": 2,
+            "chunkIndex": 2,
+            "snippet": "Chapter 2.1: Normal Forms (1NF, 2NF, 3NF, BCNF).\nFirst Normal Form (1NF): A relation is in 1NF if and only if each attribute contains only atomic (indivisible) values, and there are no repeating groups or multivalued attributes.\nSecond Normal Form (2NF): A relation is in 2NF if it is in 1NF and every non-prime attribute is fully functionally dependent on the entire primary key (no partial dependencies on a subset of a composite key).\nThird Normal Form (3NF): A relation is in 3NF if it is in 2NF and no non-prime attribute is transitively dependent on the primary key (no X -> Y and Y -> Z where Z is non-prime).",
+            "score": 0.48
+          }
+        ]
+      },
+      {
+        "id": "msg_u_1790746345006",
+        "userId": "default",
+        "documentId": "sample_doc_dbms_01",
+        "role": "user",
+        "content": "What is the capital of Australia?",
+        "timestamp": "2026-09-30T05:32:25.006Z"
+      },
+      {
+        "id": "msg_a_1790746345016",
+        "userId": "default",
+        "documentId": "sample_doc_dbms_01",
+        "role": "assistant",
+        "content": "I couldn't find information related to this question in the uploaded document.",
+        "timestamp": "2026-09-30T05:32:25.016Z",
+        "sources": [
+          {
+            "documentId": "sample_doc_dbms_01",
+            "documentName": "DBMS_Notes.pdf",
+            "pageNumber": 1,
+            "chunkIndex": 0,
+            "snippet": "Chapter 1: Relational Database Model & Functional Dependencies.\nIn a Relational Database Management System (RDBMS), data is organized into two-dimensional tables called relations. A relation consists of rows (tuples) and columns (attributes). A candidate key is a minimal superkey that uniquely identifies each tuple. The primary key is chosen among candidate keys to serve as the principal identifier. Functional dependency X -> Y means that if two tuples agree on attribute X, they must also agree on attribute Y.",
+            "score": 0.45
+          },
+          {
+            "documentId": "sample_doc_dbms_01",
+            "documentName": "DBMS_Notes.pdf",
+            "pageNumber": 2,
+            "chunkIndex": 2,
+            "snippet": "Chapter 2.1: Normal Forms (1NF, 2NF, 3NF, BCNF).\nFirst Normal Form (1NF): A relation is in 1NF if and only if each attribute contains only atomic (indivisible) values, and there are no repeating groups or multivalued attributes.\nSecond Normal Form (2NF): A relation is in 2NF if it is in 1NF and every non-prime attribute is fully functionally dependent on the entire primary key (no partial dependencies on a subset of a composite key).\nThird Normal Form (3NF): A relation is in 3NF if it is in 2NF and no non-prime attribute is transitively dependent on the primary key (no X -> Y and Y -> Z where Z is non-prime).",
+            "score": 0.43
+          },
+          {
+            "documentId": "sample_doc_dbms_01",
+            "documentName": "DBMS_Notes.pdf",
+            "pageNumber": 4,
+            "chunkIndex": 6,
+            "snippet": "Chapter 4: Physical Database Storage and Indexing.\nAn index is an auxiliary data structure that enhances the speed of data retrieval operations on a database table at the cost of additional storage and write overhead.\nPrimary Index: Created on the primary key ordered data file.\nClustered Index: Determines the physical order of data in the table.\nSecondary Index: Created on non-ordering attributes, pointing to records via record pointers or primary keys.",
+            "score": 0.43
+          },
+          {
+            "documentId": "sample_doc_dbms_01",
+            "documentName": "DBMS_Notes.pdf",
+            "pageNumber": 1,
+            "chunkIndex": 1,
+            "snippet": "Chapter 2: Normalization Concepts and Redundancy.\nNormalization is the systematic approach of decomposing tables to eliminate data redundancy and avoid undesirable anomalies such as Insertion Anomalies, Deletion Anomalies, and Update Anomalies.\n- Insertion Anomaly: Inability to record certain facts without adding unrelated attributes.\n- Deletion Anomaly: Unintended loss of unrelated data when deleting a record.\n- Update Anomaly: Inconsistent updates across duplicate occurrences of data in multiple records.",
+            "score": 0.42
+          }
+        ]
+      }
+    ]
+  }
+]

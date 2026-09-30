@@ -1,0 +1,8 @@
+{
+  "name": "DocuMind - AI PDF Question Answering System",
+  "description": "Upload PDF documents, extract knowledge, and ask natural language questions with context-grounded AI answers and source citations powered by Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

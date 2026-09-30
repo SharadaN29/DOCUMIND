@@ -1,0 +1,57 @@
+[
+  {
+    "id": "doc_1790746388337_eg5oj",
+    "userId": "default",
+    "filename": "Computer_Networks.pdf",
+    "originalName": "Computer_Networks.pdf",
+    "fileSizeBytes": 1137,
+    "totalPages": 1,
+    "chunkCount": 1,
+    "uploadedAt": "2026-09-30T05:33:10.528Z",
+    "status": "ready",
+    "summary": "Computer Networks and OSI Architecture Notes\nThe Open Systems Interconnection model defines seven logical layers:\n1. Physical Layer: Transmission of raw bitstreams over a physical medium.\n2. Data Link Layer: Node-to-node data transfer, framing, and error detection.\n3. Network Lay...",
+    "sampleQuestions": [
+      "What is the primary topic of Computer_Networks.pdf?",
+      "Summarize the key conclusions from this document.",
+      "Explain the main methods or principles discussed in page 1."
+    ]
+  },
+  {
+    "id": "sample_doc_dbms_01",
+    "userId": "system",
+    "filename": "DBMS_Notes.pdf",
+    "originalName": "DBMS_Notes.pdf",
+    "fileSizeBytes": 2450000,
+    "totalPages": 4,
+    "chunkCount": 8,
+    "uploadedAt": "2026-09-29T05:31:41.412Z",
+    "status": "ready",
+    "summary": "Comprehensive academic lecture notes covering Relational Model fundamentals, Database Normalization (1NF through BCNF), Functional Dependencies, ACID Transaction Properties, and B+ Tree Indexing.",
+    "sampleQuestions": [
+      "What is normalization and what problems does it solve?",
+      "What are the advantages of normalization?",
+      "Explain the ACID properties of database transactions.",
+      "What is the difference between 3NF and BCNF?",
+      "How does indexing improve query performance?"
+    ]
+  },
+  {
+    "id": "sample_doc_ml_02",
+    "userId": "system",
+    "filename": "Machine_Learning.pdf",
+    "originalName": "Machine_Learning.pdf",
+    "fileSizeBytes": 1840000,
+    "totalPages": 3,
+    "chunkCount": 6,
+    "uploadedAt": "2026-09-29T17:31:41.412Z",
+    "status": "ready",
+    "summary": "Foundational guide to Machine Learning paradigms, Supervised vs Unsupervised Learning, Bias-Variance Tradeoff, and Neural Network architectures.",
+    "sampleQuestions": [
+      "What is supervised learning?",
+      "What are its applications?",
+      "Explain the bias-variance tradeoff in machine learning.",
+      "What is the difference between supervised and unsupervised learning?",
+      "How does gradient descent optimize neural network weights?"
+    ]
+  }
+]
